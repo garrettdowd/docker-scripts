@@ -8,3 +8,5 @@ This will stop all of the docker containers on your host, create a tar archive o
 `REMOVE_AFTER_DAYS` defines when an archive should be removed from your backups. Backups will only be removed if the current backup was successful.
 
 `FILENAME` defines the name of the archive. The current filename includes a full date-time of the arhive creation.
+
+The rest of the script should be adapted as necessary (archive location, etc)
